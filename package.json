@@ -1,0 +1,7 @@
+{
+  "name": "mkweb",
+  "version": "0.1.0",
+  "bin": {
+    "mkweb": "./mkweb.bat"
+  }
+}
