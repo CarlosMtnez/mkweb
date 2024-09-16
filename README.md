@@ -6,6 +6,7 @@
 
 - Initializes a new web project using [Vite](https://vitejs.dev/).
 - Automatically sets up a folder structure and basic files (`index.html`, `style.css`, `index.js`, etc.).
+- Includes basic CSS reset styles including the box model border-box applied.
 - Configures a local development environment with essential tools like ESLint, Stylelint, and Vite.
 - Automatically installs necessary dependencies.
 - Removes unnecessary default files created by Vite and replaces them with a clean project structure.
@@ -13,14 +14,6 @@
 - Can be run via PowerShell or a **`.bat`** file for easy execution.
 
 ## Installation
-
-### Installation via npm
-
-To install **mkweb** globally via **npm**, run the following command:
-
-```bash
-npm install -g https://github.com/CarlosMtnez/mkweb
-```
 
 ### Installation manually
 
@@ -40,22 +33,30 @@ After cloning the repository, you can make the script available globally by runn
 
 Once the installation is complete, you can execute mkweb globally from any directory on your system to start a vanilla website with vite and WebComponents.
 
+### Installation via npm
+
+To install **mkweb** globally via **npm**, run the following command:
+
+```bash
+npm install -g https://github.com/CarlosMtnez/mkweb
+```
+
 ## Usage
 
 There are two ways to run the script:
 
-1. **Using PowerShell**:
+1. **Using the `.bat` file**:
+   - From the command line, run the following:
+
+     ```batch
+     mkweb <project-name>
+     ```
+     
+2. **Using PowerShell**:
    - Open PowerShell and run the following command:
 
      ```powershell
      .\mkweb.ps1 <project-name>
-     ```
-
-2. **Using the `.bat` file**:
-   - From the command line, run the following:
-
-     ```batch
-     mkweb.bat <project-name>
      ```
 
 In both cases, if no project name is provided, the script will prompt you to enter one interactively.
@@ -83,7 +84,7 @@ This script is heavily inspired by the **mkweb** project by [Manz](https://manz.
 
 ## Author
 
-**Created by Carlos Martínez**  
+**Created by Carlos MartÃ­nez**  
 Email: [carlos@mtnez.com](mailto:carlos@mtnez.com)  
 Website: [mtnez.com](https://mtnez.com)
 
